@@ -1,8 +1,18 @@
+@import 'antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+body {
+  background-color: rgb(10, 12, 14);
+}
+
+.site-page-header {
+  border: 1px solid rgb(38, 38, 39);
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,7 +21,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +38,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
